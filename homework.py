@@ -1,9 +1,10 @@
+import logging
 import os
 import sys
 import time
-import logging
-import requests
+
 from dotenv import load_dotenv
+import requests
 from telebot import TeleBot
 
 load_dotenv()
